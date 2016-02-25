@@ -1,0 +1,57 @@
+<LinearLayout xmlns:xmnls="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="150dip">
+- <ImageView
+        android:id="@+id/back_arrow"
+        android:layout_width="50dip"
+        android:layout_height="30dip"
+        android:src="@drawable/back_arrow"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="5dp"/>
+        <HorizontalScrollView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="0dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="300dip"
+                    android:layout_height="200dip"
+                    android:src="@drawable/pic1"
+                    android:contentDescription="pic1" />
+                <ImageView
+                    android:layout_width="300dip"
+                    android:layout_height="200dip"
+                    android:src="@drawable/pic2"
+                    />
+                <ImageView
+                    android:layout_width="300dip"
+                    android:layout_height="200dip"
+                    android:src="@drawable/pic3"
+                    />
+                <ImageView
+                    android:layout_width="300dip"
+                    android:layout_height="200dip"
+                    android:src="@drawable/pic4"
+                    />
+            </LinearLayout>
+        </HorizontalScrollView>
+    - <ImageView
+        android:id="@+id/arrows"
+        android:layout_width="50dip"
+        android:layout_height="30dip"
+        android:src="@drawable/arrows"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="5dp"/>
+
+</LinearLayout>
+
